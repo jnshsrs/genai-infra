@@ -9,3 +9,7 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
+variable "pg_admin_password" {
+  sensitive = true
+}
